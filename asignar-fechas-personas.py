@@ -106,7 +106,7 @@ def assignDate(keysDictList, daysList):
                     if mes > 12:
                         anio = anio + 1
                         mes = 1
-                    
+                    # Si no queremos que asigne fechas dada una cantidad de personas, sino aleatoriamente, quitamos la variable cantidad
                     list_new_days = getDays(anio, mes, cantidad)
         
                 new_day = randomDay(list_new_days)
